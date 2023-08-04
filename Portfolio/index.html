@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="nav-container">
+            <nav>
+                <a class="logo" href="#header">PORTFOLIO</a>
+                <div class="mobile-menu">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+                <ul class="nav-list">
+                    <li><a href="#aboutme">Sobre Mim</a></li>
+                    <li><a href="#skills">Habilidades</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="main up">
+        <div class="header-container" id="header">
+            <div class="header-text box fade-left">
+                <p>&#10230; BEM VINDO!</p>
+                <h1>Eu sou <span class="text-kaique">Kaique</span> Gonçalves</h1>
+                <p>Desenvolvedor Back-End</p>
+            </div>
+            <div class="header-img box fade-rigth">
+                <img src="img/header.png">
+            </div>
+        </div>
+
+        <div class="aboutme-container" id="aboutme">
+            <div class="aboutme-img box fade-left">
+                <img src="img/header.png" alt="">
+            </div>
+            <div class="aboutme-text box fade-rigth">
+                <h2>Sobre Mim</h2>
+                <p>Olá, meu nome é Kaique tenho 18 anos, sou um programador com experiencia em Python, Desenvolvimento
+                    Web e Desenvolvimento de Jogos utilizando C# na Unity. Possuo fácil aprendizagem, objetividade,
+                    resiliência e estou sempre em busca de novos conhecimentos, os quais quero utilizar para ajudar as
+                    pessoas e empresas.</p>
+            </div>
+        </div>
+
+        <div class="skills-container" id="skills">
+            <div class="skills-text">
+                <div class="skill" id="html">
+                    <h2>HTML5</h2>
+                    <p>HTML é uma abreviação de Hypertext Markup Language, ou seja, Linguagem de Marcação de Hipertexto.
+                        Resumindo, o HTML é uma linguagem usada para a publicação de conteúdo (texto, imagens, vídeos,
+                        áudio etc.) na web.</p>
+                </div>
+                <div class="skill" id="css">
+                    <h2>CSS3</h2>
+                    <p>CSS é chamado de linguagem Cascading Style Sheet e é usado para estilizar elementos escritos em
+                        uma linguagem de marcação como HTML. O CSS separa o conteúdo da representação visual do site.
+                    </p>
+                </div>
+                <div class="skill" id="js">
+                    <h2>JavaScript</h2>
+                    <p>O JavaScript é uma linguagem de programação de alto nível voltada para o desenvolvimento web,
+                        criada originalmente para funcionar do lado do usuário, ou seja, nos navegadores. Junto do HTML
+                        e do CSS, é uma das principais tecnologias da web, permitindo a criação de páginas interativas
+                        com elementos dinâmicos e boa performance.</p>
+                </div>
+                <div class="skill" id="py">
+                    <h2>Python</h2>
+                    <p>O Python é uma linguagem de programação amplamente usada em aplicações da Web, desenvolvimento de
+                        software, ciência de dados e machine learning (ML). Os desenvolvedores usam o Python porque é
+                        eficiente e fácil de aprender e pode ser executada em muitas plataformas diferentes.</p>
+                </div>
+                <div class="skill" id="cs">
+                    <h2>C#</h2>
+                    <p>C# é uma linguagem de programação orientada a objetos e orientada a componentes. C# fornece
+                        construções de linguagem para dar suporte diretamente a esses conceitos, tornando uma
+                        linguagem natural para criação e uso de componentes de software.</p>
+                </div>
+                <div class="skill" id="unity">
+                    <h2>Unity</h2>
+                    <p>Unity é uma ferramenta que permite criar videojogos para diversas plataformas (PC, consoles,
+                        mobile, VR e AR) utilizando um editor visual e programação através de scripting (C#), oferecendo
+                        aos
+                        utilizadores ferramentas profissionais, capazes de preencher os requisitos de qualquer jogo.</p>
+                </div>
+            </div>
+            <div class="skills-options box fade-rigth">
+                <h2>Escolha uma Opção</h2>
+                <div class="options">
+                    <button type="button" onclick="skillsOptions('html', 'imghtml')"><img src="img/hmlt5_logo.png"
+                            id="imghtml" alt=""></button>
+                    <button type="button" onclick="skillsOptions('css', 'imgcss')"><img src="img/css3_logo.png"
+                            id="imgcss" alt=""></button>
+                    <button type="button" onclick="skillsOptions('js', 'imgjs')"><img src="img/javascript_logo.png"
+                            id="imgjs" alt=""></button>
+                    <button type="button" onclick="skillsOptions('py', 'imgpy')"><img src="img/python_logo.png"
+                            id="imgpy" alt=""></button>
+                    <button type="button" onclick="skillsOptions('cs', 'imgcs')"><img src="img/csharp_logo.png"
+                            id="imgcs" alt=""></button>
+                    <button type="button" onclick="skillsOptions('unity', 'imgunity')"><img src="img/unity_logo.png"
+                            id="imgunity" alt=""></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="projects-container" id="projects">
+            <h2>Projetos</h2>
+            <div class="projects-cards box fade-left">
+                <div class="cards">
+                    <figure>
+                        <img src="img/embreve.jpg">
+                        <figcaption>?????</figcaption>
+                    </figure>
+                </div>
+                <div class="cards">
+                    <figure>
+                        <img src="img/embreve.jpg">
+                        <figcaption>?????</figcaption>
+                    </figure>
+                </div>
+                <div class="cards">
+                    <figure>
+                        <img src="img/embreve.jpg">
+                        <figcaption>?????</figcaption>
+                    </figure>
+                </div>
+                <div class="projects-cards cards-fade" id="hidden-cards">
+                    <div class="cards">
+                        <figure>
+                            <img src="img/embreve.jpg">
+                            <figcaption>?????</figcaption>
+                        </figure>
+                    </div>
+                    <div class="cards">
+                        <figure>
+                            <img src="img/embreve.jpg">
+                            <figcaption>?????</figcaption>
+                        </figure>
+                    </div>
+                    <div class="cards">
+                        <figure>
+                            <img src="img/embreve.jpg">
+                            <figcaption>?????</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div class="btnHidden box fade-rigth">
+                <button onclick="hiddenCard('hidden-cards')" id="btnHidden">Mostrar Mais</button>
+            </div>
+        </div>
+    </div>
+    <footer class="up">
+        <p>&copy;Copyright, 2023</p>
+    </footer>
+    <script src="js/mobile-navbar.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/cards.js"></script>
+    <script src="js/skills-options.js"></script>
+    <script src="js/scrollAnimation.js"></script>
+</body>
+
+</html>
